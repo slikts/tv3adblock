@@ -1,14 +1,14 @@
 {
-	"name": "tv3adblock",
-	"manifest_version": 2,
-	"version": "1.1",
-	"description": "Skip TV3 Play ads",
-	"icons": { "48": "icon48.png", "128": "icon128.png" },
-	"homepage_url": "https://chrome.google.com/webstore/detail/tv3adblock/pkefobmhooffjmbmfoagpmgidhihnmii",
-	"content_scripts": [{
-		"run_at": "document_end",
-		"matches": ["http://*.tv3play.lv/*"],
-		"js": ["jquery.js", "flowplayer.js", "tv3adblock.js"]
-	}],
-	"permissions": ["http://*.viastream.viasat.tv/*"]
+    "name": "tv3adblock",
+    "manifest_version": 2,
+    "version": "1.1",
+    "description": "Skip TV3 Play ads",
+    "icons": { "48": "icon48.png", "128": "icon128.png" },
+    "homepage_url": "https://chrome.google.com/webstore/detail/tv3adblock/pkefobmhooffjmbmfoagpmgidhihnmii",
+    "content_scripts": [{
+        "run_at": "document_end",
+        "matches": ["http://*.tv3play.lv/*"],
+        "js": ["jquery.js", "flowplayer.js", "tv3adblock.js"]
+    }],
+    "permissions": ["http://*.viastream.viasat.tv/*"]
 }
